@@ -307,11 +307,8 @@ nav .fa{
 
 .service-col{
     display: flex;
-    position: absolute;
-    width: 80%;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
-    flex-wrap: wrap;
 }
 
 .service-box{
@@ -338,7 +335,7 @@ nav .fa{
     align-items: center;
     width: 25%;
     height: 25%;
-    margin: 20px;
+    margin: 20  px;
     margin-top: 100px;
     border-radius: 50%;
     background-color: #505760;
@@ -423,7 +420,6 @@ nav .fa{
     padding: 100px 0 20px;
     background: linear-gradient(rgba(35, 7, 7, 0.7), rgba(215, 215, 215,0.7));
     position: relative;
-    margin-top: 780px;
 }
 
 .footer-row{
@@ -496,7 +492,22 @@ nav .fa{
     margin-top: 20px;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 770px){
+    #footer{
+        margin-top: 2300px;
+        width: 100%;
+    }
+    .footer-left,
+    .footer-right{
+        flex-basis: 100%;
+        font-size: 14px;
+    }
+    .footer-img{
+        top: 25%;
+    }
+}
+
+@media screen and (min-width:  770px){
     #footer{
         margin-top: 1200px;
         width: 100%;
