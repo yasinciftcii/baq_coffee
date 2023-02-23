@@ -496,7 +496,7 @@ nav .fa{
     margin-top: 20px;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 770px){
     #footer{
         margin-top: 1200px;
         width: 100%;
