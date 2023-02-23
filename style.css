@@ -480,10 +480,24 @@ nav .fa{
     margin: 40px 5px 0;
     color: #8b0000;
     cursor: pointer;
-    transition: .5s;
+    transition: 0.5s;
 }
 
-.social-links i:hover{
+.getir{
+    height: 40px;
+    width: 40px;
+    font-size: 12px;
+    line-height: 40px;
+    margin: auto;
+    border: 1px solid #8b0000;
+    color: #8b0000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.social-links i:hover,
+.getir:hover{
     background: #8b0000;
     color: #fff;
     transform: translateY(-7px);
