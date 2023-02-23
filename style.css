@@ -102,7 +102,7 @@ nav .fa{
 
 @media(max-width: 700px){
     .header{
-        width: auto;
+        width: 100%;
     }
     .text-box h1{
         font-size: 20px;
@@ -496,9 +496,10 @@ nav .fa{
     margin-top: 20px;
 }
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 1024px){
     #footer{
-        margin-top: 2300px;
+        margin-top: 1200px;
+        width: 100%;
     }
     .footer-left,
     .footer-right{
