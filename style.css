@@ -151,8 +151,8 @@ nav .fa{
 .photo-1{
     display: flex;
     flex-direction: column;
-    width: 30%;
-    height: 380px;
+    width: 31%;
+    height: 335px;
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -211,8 +211,8 @@ nav .fa{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    width: 30%;
-    height: 380px;
+    width: 31%;
+    height: 335px;
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -225,8 +225,8 @@ nav .fa{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 30%;
-    height: 380px;
+    width: 31%;
+    height: 335px;
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -296,9 +296,9 @@ nav .fa{
 }
 
 /* SERVICE */
+
 .service{
-    margin: 3%;
-    padding: 4%;
+    padding: 3%;
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -350,21 +350,16 @@ nav .fa{
 .service-box h1{
     display: flex;
     justify-content: center;
-    margin-left: 30%;
-    margin-top: -60px;
+    margin-left: 20%;
+    margin-top: -40px;
     font-size: 16px;
 }
 
 .service-box p{
     display: inline-block;
     text-align: left;
-    font-size: 12px;
+    font-size: 14px;
     margin: 55px 10px;
-}
-
-.service-box a{
-    margin: auto;
-    margin-bottom: 25px;
 }
 
 .overlay{
@@ -398,19 +393,26 @@ nav .fa{
     opacity: 1;
 }
 
-@media screen and (max-width: 770px){
+@media screen and (max-width: 860px){
     .service-box{
-        flex-basis: 100%;
-        margin-bottom: 30px;
+        display: flex;
+        margin: 0 auto;
+        padding: 0;
+        margin-top: 20px;
+        width: 100%;
+        height: 100%;
+        flex-wrap: wrap;
+    }
+    .service-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .service-desc h1{
-        font-size: 12px;
+        font-size: 18px;
     }
     .service-desc p{
-        font-size: 11px;
-    }
-    .service-box:hover .single-desc{
-        bottom: 25% !important;
+        font-size: 14px;
     }
 }
 
@@ -493,7 +495,6 @@ nav .fa{
 }
 
 @media screen and (max-width: 770px){
-<<<<<<< HEAD
     #footer{
         margin-top: 2300px;
         width: 100%;
@@ -508,32 +509,15 @@ nav .fa{
     }
 }
 
-@media screen and (min-width:  770px){
-=======
->>>>>>> c6b9e217385b0063a57c69f025a4bc926a118aaa
+@media screen and (max-width:  770px){
     #footer{
-        margin-top: 1200px;
+        margin-top: 50px;
         width: 100%;
     }
     .footer-left,
     .footer-right{
         flex-basis: 100%;
-        font-size: 14px;
-    }
-    .footer-img{
-        top: 25%;
-    }
-}
-
-@media screen and (min-width: 770px){
-    #footer{
-        margin-top: 1200px;
-        width: 100%;
-    }
-    .footer-left,
-    .footer-right{
-        flex-basis: 100%;
-        font-size: 14px;
+        font-size: 16px;
     }
     .footer-img{
         top: 25%;
