@@ -711,9 +711,10 @@ nav .fa{
     }
     .gallery-row img {
         display: flex;
+        justify-content: center;
         flex-direction: column;
-        max-width: 98%;
-        margin: 1%;
+        max-width: 92%;
+        margin: 4%;
     }
 }
 
