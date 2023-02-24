@@ -801,6 +801,10 @@ nav .fa{
     text-align: right;
 }
 
+.footer-right a{
+    margin-right: 10px;
+}
+
 .footer-right h1{
     text-align: center;
 }
@@ -871,7 +875,7 @@ nav .fa{
     color: #e1dfdf;
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 882px){
     #footer{
         width: 100%;
     }
