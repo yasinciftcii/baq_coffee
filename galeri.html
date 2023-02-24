@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımızda</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Explora&display=swap" rel="stylesheet">
+    <!-- FONT -->
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- ICONS -->
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <section class="header-other">
+        <nav>
+            <a href="index.html"><img src="images/the_others/baq_new_logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark fa" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">ANASAYFA</a></li>
+                    <li><a href="hakkımızda.html">HAKKIMIZDA</a></li>
+                    <li><a href="menü.html">MENÜ</a></li>
+                    <li><a href="galeri.html">GALERİ</a></li>
+                    <li><a href="iletişim.html">İLETİŞİM</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars fa" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    <!-- HEADER -->
+
+    <!-- GALERY -->
+    <section class="gallery">
+        <div class="gallery-row">
+            <img src="images/the_others/yeni_ürün.webp">
+            <img src="images/menu/drinks/Dünya Kahveleri/cappuccino.png">
+            <img src="images/menu/foods/Tavuklar/tavuk_ızgara.jpg">
+            <img src="images/menu/drinks/Milkshake/vanilyalı_milkshake.jpg">
+        </div>
+        <div class="gallery-row">
+            <img src="images/menu/drinks/Sıcak İçecekler/irish_tea.jpg" class="limonata">
+            <img src="images/menu/foods/Etler/special_antrikot.jpg">
+            <img src="images/menu/drinks/Bitki Çayları/adacayi.png">
+            <img src="images/menu/foods/Tatlılar&Deserts/waffle.jpg">
+        </div>
+        <div class="clearfix"></div>
+    </section>
+    <!-- GALERY -->
+
+    <!-- FOOTER -->
+    <section id="footer">
+        <img src="images/the_others/baq_new_logo.png" class="footer-img">
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>AÇILIŞ SAATLERİ</h1>
+                <p><i class="fa-regular fa-clock"></i>Pazartesi - Cuma : 10.00 - 23.00</p>
+                <p><i class="fa-regular fa-clock"></i>Cumartesi - Pazar : 10.00 - 00.00</p>
+            </div>
+            <div class="footer-right">
+                <h1>İLETİŞİM</h1>
+                <p>#BAQ COFFEE ADRES<i class="fa-sharp fa-solid fa-location-dot"></i></p>
+                <p>baqcoffee@website.com<i class="fa-solid fa-paper-plane"></i></p>
+                <p>+01 123 456 78 90<i class="fa-solid fa-phone"></i></p>
+            </div>
+        </div>
+        <div class="social-links">
+            <a href="https://www.facebook.com/baqcoffeetr"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/baqcoffeetr/"><i class="fa-brands fa-instagram"></i></a>
+            <p class="getir"><a
+                    href="https://getir.com/yemek/restoran/baq-coffee-merkez-bahcelievler-mah-merkez-isparta/"></a>GETİR
+            </p>
+            <p>Made by Yasin Çiftçi.</p>
+        </div>
+    </section>
+    <!-- FOOTER -->
+
+    <!-- JAVASCRIPT FOR TOGGLE MENU -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <!-- JAVASCRIPT FOR TOGGLE MENU -->
+</body>
+
+</html>
